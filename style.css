@@ -1,0 +1,52 @@
+:root{
+  --color-grey1: #ededed;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ body {
+  background-color: skyblue;
+}
+
+img{
+  height: 135px;
+  width: 135px;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.flex-horizontal{
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  
+}
+
+.flex-horizontal div{
+  border: 1px var(--color-grey1) solid;
+  border-radius: 5px 5px;
+  padding: 1px;
+  height: 40vh;
+}
+
+.flex-horizontal div{
+  width: 40%;
+}
+
+
+.result-info h4:first-of-type{
+  float: left;
+  text-align:center;
+  left: 30%;
+}
+
+.result-info h4:last-of-type{
+  float: right;
+
+
+@@media screen and (max-width:200px){
+ 
+}
